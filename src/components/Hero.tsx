@@ -4,7 +4,7 @@ import IMAGES from "@/images/images";
 
 const Hero = () => {
     return (
-        <div className="bg-red-50 h-screen">
+        <div className="bg-red-50 h-screen flex flex-col items-center justify-center">
             <Container>
 
                 <div className="grid grid-cols-1 content-center gap-4">
