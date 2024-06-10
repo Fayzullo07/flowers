@@ -8,7 +8,7 @@ const TypeOfMaking = () => {
             <Container>
 
                 <div className="grid grid-cols-1 items-center gap-4">
-                    <img width={220} className="mx-auto hover:scale-105 duration-300" src={IMAGES.flowers4} alt="flowers" />
+                    <img width={300} className="mx-auto hover:scale-105 duration-300" src={IMAGES.flowers4} alt="flowers" />
                     <Link to="/typeOfMaking" className="text-center">
                         <button className="w-52 hover:w-60 duration-300 border-2 border-red-600 bg-red-400 py-1 px-6 rounded-full text-white text-2xl">AI 🤖</button>
                     </Link>
